@@ -1,0 +1,32 @@
+{
+	"name": "juzna/nette-date-picker",
+	"description": "Date input",
+	"keywords": ["input", "date", "forms", "nette"],
+	"homepage": "http://nette.merxes.cz/date-picker",
+	"license": "BSD-3",
+	"authors": [
+		{
+			"name": "Jan Tvrdík"
+		},
+		{
+			"name": "Jan Dolecek",
+			"email": "juzna.cz@gmail.com"
+		}
+	],
+	"autoload": {
+		"classmap": [ "DatePicker.php" ]
+	},
+	"require": {
+		"nette/nette": "2.0.*"
+	},
+	"extra": {
+		"nette": {
+			"assets": {
+
+			},
+			"assets-optional": {
+
+			}
+		}
+	}
+}
