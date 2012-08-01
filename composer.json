@@ -1,5 +1,6 @@
 {
 	"name": "juzna/nette-date-picker",
+	"type": "nette-addon",
 	"description": "Date input",
 	"keywords": ["input", "date", "forms", "nette"],
 	"homepage": "http://nette.merxes.cz/date-picker",
@@ -17,7 +18,9 @@
 		"classmap": [ "DatePicker.php" ]
 	},
 	"require": {
-		"nette/nette": "2.0.*"
+		"nette/nette": "2.0.*",
+		"nette/addon-installer": "@dev",
+		"nette/extras": "@dev"
 	},
 	"extra": {
 		"nette": {
@@ -26,7 +29,8 @@
 			},
 			"assets-optional": {
 
-			}
+			},
+			"extras": [ "jQuery", "jQuery-UI" ]
 		}
 	}
 }
