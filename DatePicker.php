@@ -248,4 +248,11 @@ class DatePicker extends Forms\Controls\BaseControl
 		return array($controlMin, $controlMax);
 	}
 
+
+
+	// extension method
+	public static function _addDatePicker(\Nette\Forms\Container $container, $name, $label = NULL)
+	{
+		return $container[$name] = new DatePicker($label);
+	}
 }

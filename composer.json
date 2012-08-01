@@ -30,6 +30,13 @@
 			"assets-optional": {
 
 			},
+			"extension-methods": [
+				{
+					"class": "Nette\\Forms\\Container",
+					"method": "addDatePicker",
+					"callback": "JanTvrdik\\Components\\DatePicker::_addDatePicker"
+				}
+			],
 			"extras": [ "jQuery", "jQuery-UI" ]
 		}
 	}
