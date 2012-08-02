@@ -28,7 +28,7 @@
 				"js": [ "date-picker.js" ]
 			},
 			"assets-optional": {
-
+				"js": [ "date-picker-cs.js" ]
 			},
 			"extension-methods": [
 				{
