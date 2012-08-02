@@ -25,7 +25,7 @@
 	"extra": {
 		"nette": {
 			"assets": {
-
+				"js": [ "date-picker.js" ]
 			},
 			"assets-optional": {
 
